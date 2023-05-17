@@ -1,7 +1,7 @@
 const getColor = () => {
     // hex code (hexa decimal code)
     const randomNumber = Math.floor(Math.random() * 16777215);
-    const randomCode = "#" * randomNumber.toString(16); // it will convert to hexadecimal code because 16 is used for hexadecimal
+    const randomCode = "#" + randomNumber.toString(16); // it will convert to hexadecimal code because 16 is used for hexadecimal
     console.log(randomNumber, randomCode)
     // console.log(randomCode)
 
